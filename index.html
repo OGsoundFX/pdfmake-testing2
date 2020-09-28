@@ -8,7 +8,13 @@
 </head>
 <body>
     <h1>Hello</h1>
-    <script>
+
+    <form method="POST" action="pdfMake\pdf">
+        <input type="text" placeholder="name" name="name">
+        <input type="text" placeholder="email" name="email">
+        <input type="submit">
+    </form>
+    <!-- <script>
 
         var docDefinition = {
             content: [
@@ -19,6 +25,6 @@
 
         pdfMake.createPdf(docDefinition).download();
 
-    </script>
+    </script> -->
 </body>
 </html>
