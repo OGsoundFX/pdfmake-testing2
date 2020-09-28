@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const pdfMake = require('./pdfmake/pdfmake.min')
+const pdfMake = require('./pdfmake/pdfmake.min');
 const vfsFonts = require('./pdfmake/vfs_fonts');
 
 // pdfMake.vfs = vfsFonts.pdfMake.vfs;
